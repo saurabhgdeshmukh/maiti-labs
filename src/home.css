@@ -1,0 +1,121 @@
+.heading
+{
+    color: #1E3A2B;
+    text-align: center;
+    margin-top: 115px;
+    font-family: 'Gilroy-XBold';
+    font-size: 65px;
+    font-weight: 1000;
+}
+@media (min-width: 768px) {
+    .heading {
+      font-size: 90px;
+    }
+  }
+.subhead {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 19px;
+    text-align: center;
+    font-family: 'Gilroy-Light';
+    font-size: 25px;
+    line-height: 1.4;
+    font-weight: 300;
+    color: #1E3A2B;
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .subhead {
+      margin-top: 40px;
+      font-size: 30px;
+      width: 589px;
+    }
+  }
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 65%;
+    height: 112px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media (min-width: 768px) {
+    .button-container {
+        justify-content: space-around;
+        width: 540px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+}
+
+.custom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 40px;
+    margin: 32px 0;
+    border-radius: 50px;
+    background-color: #1e3a2b;
+    color: #f1f5f9;
+    font-size: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+}
+
+.custom-button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #1e3a2b;
+    font-weight: 500;
+    box-shadow: 0 4px 6px rgba(78, 82, 77, 0.2);
+    transform: scale(1.1);
+}
+
+.button-text {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+.custom-button:hover .button-text {
+    transform: scale(1);
+}
+.intro-section {
+    width: 100%;
+    max-width: 90%;
+    padding: 0 2%;
+    margin: 150px auto;
+    font-family: 'Belleza', sans-serif;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .intro-section {
+        margin-top: 185px;
+        padding: 0 4%;
+    }
+}
+
+.intro-text {
+    font-size: 40px;
+    line-height: 59px;
+    tracking: -0.05em;
+}
+
+@media (min-width: 768px) {
+    .intro-text {
+        font-size: 85px;
+        line-height: 100px;
+    }
+}
+
+.highlight {
+    background-color: #1E3A2B;
+    color: white;
+}
