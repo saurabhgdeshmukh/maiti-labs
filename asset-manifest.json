@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/maiti-labs/static/css/main.61fb2d22.css",
+    "main.js": "/maiti-labs/static/js/main.d9435075.js",
+    "static/js/453.50879d76.chunk.js": "/maiti-labs/static/js/453.50879d76.chunk.js",
+    "index.html": "/maiti-labs/index.html",
+    "main.61fb2d22.css.map": "/maiti-labs/static/css/main.61fb2d22.css.map",
+    "main.d9435075.js.map": "/maiti-labs/static/js/main.d9435075.js.map",
+    "453.50879d76.chunk.js.map": "/maiti-labs/static/js/453.50879d76.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61fb2d22.css",
+    "static/js/main.d9435075.js"
+  ]
+}
